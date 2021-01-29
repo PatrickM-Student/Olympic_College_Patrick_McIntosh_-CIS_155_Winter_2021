@@ -16,3 +16,11 @@ h1 {
 body {
     background-color: blue;
 }
+
+/* Navigation Styles */
+
+nav {
+    color: whitesmoke;
+    background-color: teal;
+    
+}
