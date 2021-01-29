@@ -4,3 +4,15 @@
     Author: Patrick McIntosh
     Date:28Jan2021
 */
+
+/* Header Styles */
+
+h1 {
+    color: white;
+}
+
+/* Body Styles */
+
+body {
+    background-color: blue;
+}
