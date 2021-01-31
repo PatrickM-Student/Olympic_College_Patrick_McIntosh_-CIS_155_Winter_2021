@@ -8,22 +8,53 @@
 
 @charset "utf-8";
 
-/* Header Styles */
-
-h1 {
-    color: white;
-}
-
 /* Body Styles */
 
 body {
-    background-color: blue;
+    background-color: gray;
+    font-size: 0.9em;
 }
 
 /* Navigation Styles */
 
 nav {
     color: whitesmoke;
-    background-color: teal;
-    
+    background-color: teal; /* - M02L15 - Apply colors using CSS */
+    font-size: 1.1em;
+    text-align: right;
+    padding: 10vmin 10vmax 5vmin 10vmax; /* - M02L12 - Demonstrate how CSS can change presentation of page elements - */
+    margin: 10vh 10vw 10vh 40vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* - M02L14 - Demonstrate and explain the use of progressive enhancement in CSS. (After removing the underlining from all links on line 30, I then added it back here so that the link would underline when moused over. I do understand that I could have done the same thing by naming the specific states of the link and removing the decoration, but I thought this would be a good way to show progressive enhancement.) */
+}
+
+/* Header Styles */
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5em; /* - M02L13 - Demonstrate how CSS can change presentation of textual elements. */
+}
+
+/* Paragraph Styles */
+
+p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* List Styles */
+
+ol {
+    background-color: wheat;
+    font-size: 1.2em;
+    margin: 10px; /* - M02L12 - Demonstrate how CSS can change presentation of page elements - */
+    padding: 50px;
 }
